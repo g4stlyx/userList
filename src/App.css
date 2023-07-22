@@ -1,0 +1,51 @@
+.topArrangement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.panelDiv{
+    background-color: lightgray;
+    border-radius: 30px;
+}
+
+.mainPanel{
+  margin:0px 50px;
+}
+
+@media only screen and (max-width:767px){
+  .mainPanel{
+    margin:0 10px;
+  }
+}
+
+.deleteButton {
+  margin-right: 30px;
+  padding: 10px;
+  background-color: rgb(216, 144, 144);
+  cursor: pointer;
+  border: none;
+  border-radius:10px ;
+}
+
+.photoList{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
+}
+
+.imgAndButton{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px
+}
+
+.imgAndButton button{
+    margin-left:25px;
+    width:50px;
+}
